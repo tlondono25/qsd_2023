@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #E5FBFF;
+    height: 150px;
+    
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+
+    
+
+    
+}
+
+
+#foto{
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+section{
+    display: flex;
+   align-items: center;
+   margin-right: 20px
+}
+.nombre{
+    margin-left: 10px;
+    padding-inline-start: 60px;
+    
+}
+.info1{
+    color: white;
+    padding-right: 10px;
+    padding: 10px;
+}
+
+.aboutme{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+h2{
+    margin-left: 100px;
+}
+hr {
+    height: 1px;
+    background-color: black;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+.competencias{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-between;
+}
+
+.tabla1{
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 150px;
+    
+}
+.tabla2{
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 200px;
+}
+a{
+    color: blue;
+    margin-left: 300px;
+    margin-right: 300px;
+}
