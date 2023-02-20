@@ -21,20 +21,19 @@ header{
     margin-left: 20px;
     margin-top: 40px;
 }
-section{
-    display: flex;
-   align-items: center;
-   margin-right: 20px
-}
+
+
 .nombre{
     margin-left: 10px;
     padding-inline-start: 60px;
     
 }
 .info1{
-    color: white;
-    padding-right: 10px;
-    padding: 10px;
+    color: black;
+    display: flex;
+    margin-left: 60px;
+    
+    
 }
 
 .aboutme{

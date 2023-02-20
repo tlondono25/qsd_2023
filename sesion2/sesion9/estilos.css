@@ -1,0 +1,81 @@
+
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    margin: 25px;
+    
+  }
+.calculadora{
+    background-color: black;
+    border-radius: 50px;
+    width: 450px;
+
+}
+
+.valor{
+    font-size: 36px;
+   
+    height: 90px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    text-align: right;
+    background-color: black;
+    color: white;
+
+}
+.contenedor-botones{
+    
+    
+    align-items: center;
+  
+}
+#columna1{
+    display: grid;
+    
+    grid-template-columns: auto auto auto auto;
+    
+}
+#columna2{
+    display: grid;
+    
+    grid-template-columns: auto auto auto auto;
+}
+#columna3{
+    display: grid;
+    
+    grid-template-columns: auto auto auto auto;
+}
+#columna4{
+    display: grid;
+    
+    grid-template-columns: auto auto auto auto;
+}
+#columna5{
+    display: grid;
+    
+    grid-template-columns: auto auto auto auto;
+}
+.boton{
+    align-items: center;
+  background: #333;
+  border-radius: 50%;
+  display: flex;
+  font-size: 50px;
+  height: 100px;
+  justify-content: center;
+  width: 100px;
+}
+.boton.funcion{
+    color: black;
+  background: #a5a5a5;
+}
+.boton.operador{
+    background: #f1a33c;
+}
+
+.boton.numero-0{
+    border-radius: 50px;
+  
+  justify-content: center;
+  padding-left: 0.3em;
+  width: 180px;
+}
